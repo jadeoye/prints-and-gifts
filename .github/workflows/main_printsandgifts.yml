@@ -62,5 +62,5 @@ jobs:
         with:
           app-name: 'printsandgifts'
           slot-name: 'Production'
-          package: ./prints-and-gifts
+          package: ../../.
           
