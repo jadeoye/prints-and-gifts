@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy ASP.Net Core app to Azure Web App - printsandgifts
+name: Prints and Gifts Web App
 
 on:
   push:
@@ -62,5 +62,5 @@ jobs:
         with:
           app-name: 'printsandgifts'
           slot-name: 'Production'
-          package: .
+          package: ./prints-and-gifts
           
