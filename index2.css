@@ -1,0 +1,87 @@
+body{
+/* position: relative; */
+    background-color: white;
+    margin: auto auto auto auto !important;
+    padding-top: 20px;
+}
+h1{
+    font-size: 90px !important;
+    color: purple;
+    text-align: center;
+    font-family: amita;
+}
+h2{
+    font-size: 15px;
+    color: rgb(228, 119, 137);
+    text-align: center;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important
+}
+
+/* apply aboreto to h1 */
+h2,h3{
+    font-family: aboreto;
+}
+h3{
+    text-align: left;
+}
+#paragraph{
+    text-decoration-line: underline;
+}
+
+/* Style the form element with a border around it */
+form {
+    border: 4px solid #f1f1f1;
+  }
+  
+  /* Add some padding and a grey background color to containers */
+  .container {
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the input elements and the submit button */
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Add margins to the checkbox */
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+  .header-color{
+    color: purple !important;
+    font-family: amita;
+  }
+  .motto{
+    font-size: 20px;
+    margin: -10px auto auto auto;
+  }
+  #gold-star {
+    color: gold;
+  }
+
+  @media (min-width: 600px){
+  }
+
+  @media (max-width: 599px) {
+
+  }
