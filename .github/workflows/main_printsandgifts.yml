@@ -12,6 +12,13 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
+    - name: Login to Azure
+      uses: azure/login@v1
+      with:
+        client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_006C039084DF45EE8DCBB4D071AE61BE }}
+        tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_069C110B5638475E99751927C5B9A614 }}
+        subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_9DD5774A35F945468A39B19FA42872EB }}
+
     - name: Upload files to Azure Web App
       uses: azure/webapps-deploy@v2
       with:
