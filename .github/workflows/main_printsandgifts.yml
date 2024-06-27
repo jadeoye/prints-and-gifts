@@ -21,7 +21,8 @@ jobs:
         client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_006C039084DF45EE8DCBB4D071AE61BE }}
         tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_069C110B5638475E99751927C5B9A614 }}
         subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_9DD5774A35F945468A39B19FA42872EB }}
-
+        federated-token: ${{ secrets.AZURE_FEDERATED_TOKEN }}
+        
     - name: Upload files to Azure Web App
       uses: azure/webapps-deploy@v2
       with:
